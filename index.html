@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Влад — front-end розробник Shopify і WordPress</title>
+<meta name="description" content="Портфоліо front-end розробника: кастомні теми Shopify і WordPress, верстка, SEO.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+<div class="progress"></div>
+<header class="nav">
+  <a class="logo" href="#top">Влад</a>
+  <nav><a href="#cases">Проєкти</a><a href="#about">Про мене</a><a href="#services">Послуги</a><a href="#contact">Контакти</a></nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div>
+      <h1>Роблю Shopify-теми, які виглядають як дизайн, а не як шаблон</h1>
+      <p class="lead">Я Влад, front-end розробник з України. Верстаю кастомні теми Shopify і WordPress на HTML, SCSS та JavaScript і налаштовую SEO.</p>
+      <div class="row">
+        <a class="btn btn--fill" href="#cases">Дивитись проєкти</a>
+        <a class="btn" href="#contact">Написати мені</a>
+      </div>
+    </div>
+    <aside class="device" aria-label="Слайдшоу моїх проєктів">
+      <div class="device__bar"><span></span><span></span><span></span></div>
+      <div class="device__frame">
+        <figure style="--i:0"><img src="img/panto_home_hero.png" alt="" loading="lazy"><figcaption>Panto</figcaption></figure>
+        <figure style="--i:1"><img src="img/geigers_hero.png" alt="" loading="lazy"><figcaption>Geigers Home and Garden</figcaption></figure>
+        <figure style="--i:2"><img src="img/delux_hero.png" alt="" loading="lazy"><figcaption>Deluxo Systems</figcaption></figure>
+      </div>
+    </aside>
+  </section>
+
+  <div class="marquee" aria-label="Технології">
+    <div><span>HTML</span><span>CSS</span><span>SCSS</span><span>JavaScript</span><span>Liquid</span><span>Shopify</span><span>WordPress</span><span>Figma</span><span>SEO</span></div>
+  </div>
+
+  <section class="block" id="cases">
+    <h2>Проєкти</h2>
+    <div class="cases">
+      <article class="case">
+        <img class="shot-img" src="img/panto_home_hero.png" alt="Головна сторінка теми Panto" loading="lazy">
+        <h3>Panto</h3>
+        <p>Тема Shopify на базі Dawn за макетом із Figma: власні секції та підключення Google Fonts. Кастомна розробка сторінок.</p>
+        <ul class="tags"><li>Shopify</li><li>Liquid</li><li>SCSS</li><li>Figma</li></ul>
+        <button class="case__toggle" type="button" aria-expanded="false" aria-controls="panto-more">
+          Детальніше
+          <svg width="14" height="9" viewBox="0 0 14 9" fill="none" aria-hidden="true"><path d="M1 1l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <div class="case__more" id="panto-more">
+  <div class="case__more__inner">
+          <div class="feature">
+            <img src="img/panto_home_hero.png" alt="Головна сторінка теми Panto" loading="lazy">
+            <p>Верстав секції під редактор теми Shopify: банер, підбірка товарів і блок переваг, кожна з власними налаштуваннями та анімацією появи при прокручуванні. </p>
+          </div>
+          <div class="feature feature--rev">
+            <img src="img/panto_products.png" alt="Секції теми Panto" loading="lazy">
+            <p>Секція товарів налаштована через редактор теми: можна вибрати колекцію, кількість карток у рядку та сортування — за популярністю, ціною чи датою додавання. Логіка написана так, щоб однаково добре працювала і з невеликою підбіркою, і з великою колекцією.</p>
+          </div>
+          <div class="feature">
+            <img src="img/panto_info.png" alt="Оптимізація теми Panto" loading="lazy">
+            <p>Код чистий і без зайвого: швидке завантаження сторінок і зручна робота в редакторі теми Shopify.</p>
+          </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="case">
+        <img class="shot-img" src="img/geigers_hero.png" alt="Головна сторінка сайту Geigers Home and Garden" loading="lazy">
+        <h3>Geigers Home and Garden</h3>
+        <p>Сайт для американського клієнта: розробка та SEO-оптимізація. Створення та налаштування сторінок, а також оптимізація заголовків, meta-описів, URL і alt-текстів на великій кількості сторінок з акцентом на локальні пошукові запити.</p>
+        <ul class="tags"><li>Shopify</li><li>Liquid</li><li>SEO</li><li>Figma</li></ul>
+        <button class="case__toggle" type="button" aria-expanded="false" aria-controls="geigers-more">
+          Детальніше
+          <svg width="14" height="9" viewBox="0 0 14 9" fill="none" aria-hidden="true"><path d="M1 1l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <div class="case__more" id="geigers-more">
+  <div class="case__more__inner">
+          <div class="feature">
+            <img src="img/geigers_hero.png" alt="Головна сторінка Geigers Home and Garden" loading="lazy">
+            <p>Головна сторінка зроблена анімаційно: блоки плавно з'являються при прокручуванні, слайдер працює без затримок, а логіка верстки продумана так, щоб сторінка швидко завантажувалась навіть з великими фото.</p>
+          </div>
+          <div class="feature feature--rev">
+            <p>Для сайту зроблені великі галереї — понад 500 зображень. Усі фото оптимізовані за розміром і форматом, підписані alt-текстами і завантажуються поступово, тому галерея не гальмує сторінку.</p>
+            <img src="img/geigers_gallery.png" alt="Галерея проєктів Geigers Home and Garden" loading="lazy">
+          </div>
+          <div class="feature">
+            <img src="img/geigers_landscape.png" alt="Сторінка Landscape Architecture" loading="lazy">
+            <p>Усі сторінки послуг і робіт побудовані за єдиною логікою: однакова структура блоків, зручна навігація. Налаштоване SEO — мета-дані, заголовки, alt-тексти — а також підключення та перевірка сайту в Google.</p>
+          </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="case">
+        <img class="shot-img" src="img/delux_hero.png" alt="Головна сторінка лендінгу Deluxo Systems" loading="lazy">
+        <h3>Deluxo Systems</h3>
+        <p>Темний лендінг для рекрутингової компанії. Написаний з нуля й підключений як кастомна тема WordPress, без конструкторів.</p>
+        <ul class="tags"><li>WordPress</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        <button class="case__toggle" type="button" aria-expanded="false" aria-controls="deluxo-more">
+          Детальніше
+          <svg width="14" height="9" viewBox="0 0 14 9" fill="none" aria-hidden="true"><path d="M1 1l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <div class="case__more" id="deluxo-more">
+  <div class="case__more__inner">
+          <div class="feature">
+            <img src="img/delux_hero.png" alt="Лендінг Deluxo Systems" loading="lazy">
+            <p>Написав лендінг з нуля на HTML, CSS і JavaScript: власна структура блоків, без бібліотек і конструкторів.</p>
+          </div>
+          <div class="feature feature--rev">
+            <img src="img/delux_pay.png" alt="Анімації лендінгу Deluxo Systems" loading="lazy">
+            <p>Додав плавні анімації появи блоків і зручну навігацію, щоб сторінка виглядала сучасно й нативно для темної теми.</p>
+          </div>
+          <div class="feature">
+            <img src="img/delux_info.png" alt="Підключення теми Deluxo Systems до WordPress" loading="lazy">
+            <p>Підключив готовий лендінг як кастомну тему WordPress, зберігши швидкість завантаження і чистоту коду.</p>
+          </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="block about" id="about">
+    <img class="about__photo" src="img/hero_logo.jpg" alt="Влад, front-end розробник" width="600" height="750" loading="lazy">
+    <div>
+      <h2>Про мене</h2>
+      <p class="about__lead">Мені 18, і я вже працюю front-end розробником на фрилансі.</p>
+      <p>Я з України. Роблю сайти для Shopify і WordPress: від кастомних тем до налаштування SEO. Не покладаюся на готові конструктори й пишу код сам, щоб сайт був швидким, чистим і виглядав так, як задумав дизайнер.</p>
+      <p>Найбільший досвід я здобув на трьох проєктах: тема Shopify за макетом із Figma, сайт для американського клієнта та лендінг, який я написав з нуля як тему WordPress. Вони навчили мене не лише верстати, а й розуміти задачу клієнта та доводити роботу до результату.</p>
+      <p>Я зареєстрований як Shopify Partner і далі хочу розвиватися як Shopify-розробник. Зараз вивчаю React, щоб робити ще складніші інтерфейси.</p>
+      <p>Мені подобається, коли результат видно одразу: сторінка плавна, зрозуміла і на телефоні працює так само добре, як на комп'ютері. Якщо в тебе є проєкт, напиши мені, і я допоможу.</p>
+      <dl class="facts">
+        <div><dt>Вік</dt><dd>18</dd></div>
+        <div><dt>Країна</dt><dd>Україна</dd></div>
+        <div><dt>Спеціалізація</dt><dd>Shopify і WordPress</dd></div>
+        <div><dt>Технології</dt><dd>HTML, CSS, SCSS, JavaScript, Liquid</dd></div>
+        <div><dt>Вивчаю зараз</dt><dd>React</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="block" id="services">
+    <h2>Що я роблю</h2>
+    <ul class="services">
+      <li><h3>Кастомні теми Shopify</h3><p>Власні секції, налаштування в редакторі теми, верстка за макетом із Figma.</p></li>
+      <li><h3>Теми WordPress</h3><p>Верстка з нуля без конструкторів: чистий код і швидке завантаження.</p></li>
+      <li><h3>SEO та підтримка</h3><p>Мета-дані, alt-тексти, швидкі правки на сайті та робота з англомовними клієнтами.</p></li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Є проєкт? Напиши мені</h2>
+    <div class="row">
+      <a class="btn btn--pop" href="mailto:your@email.com">your@email.com</a>
+      <a class="btn" href="https://t.me/your_nick">Telegram</a>
+    </div>
+  </section>
+</main>
+</body>
+</html>
